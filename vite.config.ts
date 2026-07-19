@@ -15,7 +15,7 @@ export default defineConfig(() => {
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
-    base: '/gkgkgkgk/', // ← GitHub 저장소 이름과 동일하게 추가!
+    base: '/gkgkgkgk/',
   };
 });
 
